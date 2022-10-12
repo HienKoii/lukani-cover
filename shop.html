@@ -1,0 +1,1742 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <!-- <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    /> -->
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/keyfarme.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/shop.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <title>Lukani</title>
+  </head>
+  <body>
+    <div id="main">
+      <div class="header">
+        <div class="header__top">
+          <div class="grid wide">
+            <div class="row">
+              <div class="col l-12 m-12 c-12">
+                <div class="header__top--wrapper">
+                  <div class="nav__mobile">
+                    <i class="fa-solid fa-list nav__mobile--icon"></i>
+                    <div class="menu__mobile">
+                      <a href="/index.html" class="menu__mobile--log">
+                        <img src="/assets/imgs/logo.png" alt="" />
+                      </a>
+                      <ul class="menu__mobile-nav">
+                        <li class="mobile__nav-item">
+                          <a href="/" class="mobile__nav-link">Home</a>
+                        </li>
+                        <li class="mobile__nav-item">
+                          <a href="/" class="mobile__nav-link">shop</a>
+                        </li>
+                        <li class="mobile__nav-item">
+                          <a href="/" class="mobile__nav-link">blog</a>
+                        </li>
+                        <li class="mobile__nav-item">
+                          <a href="/" class="mobile__nav-link">about</a>
+                        </li>
+                        <li class="mobile__nav-item">
+                          <a href="/" class="mobile__nav-link">contact</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <i class="fa-solid fa-xmark nav__mobile--close"></i>
+                    <div class="nav__overlay"></div>
+                  </div>
+                  <a href="#" class="header__logo">
+                    <img src="./assets/imgs/logo.png" alt="" />
+                  </a>
+                  <form action="" class="header__search">
+                    <input
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Search Products..."
+                    />
+                    <button>
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                  </form>
+                  <div class="header__controls">
+                    <div class="header__controls--item">
+                      <a href="#" class="header__controls--link user">
+                        <i class="fa-regular fa-user"></i>
+                      </a>
+                      <ul class="controls__sub">
+                        <li class="controls__sub--item">
+                          <a href="#" class="controls__sub--link">Checkout</a>
+                        </li>
+                        <li class="controls__sub--item">
+                          <a href="#" class="controls__sub--link">My Account</a>
+                        </li>
+                        <li class="controls__sub--item">
+                          <a href="#" class="controls__sub--link"
+                            >Shopping Cart</a
+                          >
+                        </li>
+                        <li class="controls__sub--item">
+                          <a href="#" class="controls__sub--link">Wishlist</a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="header__controls--item">
+                      <a href="#" class="header__controls--link cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="cart__ptl">0</span>
+                      </a>
+                      <div class="controls__sub">
+                        <div class="cart__null">
+                          <p>No products in the cart.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="header__controls--item">
+                      <a href="#" class="header__controls--link heart">
+                        <i class="fa-solid fa-gear"></i>
+                      </a>
+                      <ul class="controls__sub">
+                        <li class="controls__sub--item">
+                          <a href="#" class="controls__sub--link">Checkout</a>
+                        </li>
+                        <li class="controls__sub--item">
+                          <a href="#" class="controls__sub--link">My Account</a>
+                        </li>
+                        <li class="controls__sub--item">
+                          <a href="#" class="controls__sub--link"
+                            >Shopping Cart</a
+                          >
+                        </li>
+                        <li class="controls__sub--item">
+                          <a href="#" class="controls__sub--link">Wishlist</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col l-0 m-12 c-12">
+                <div class="header__search--mobile-wrapper">
+                  <form action="" class="header__search--mobile">
+                    <input
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Search Products..."
+                    />
+                    <button>
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header__buttom">
+          <div class="grid wide">
+            <div class="row">
+              <div class="col l-12 m-0 c-0">
+                <div class="header__buttom--wrapper">
+                  <div class="header__categories">
+                    <div class="header__categories--toggle">
+                      <i class="fa-solid fa-bars-staggered"></i>
+                      <span>Categories</span>
+                    </div>
+                    <ul class="categories__sub">
+                      <li class="categories__item">
+                        <a href="#" class="categories__link">
+                          Electronic
+                          <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                        <ul class="categories__sub--childs">
+                          <li class="categories__sub--childs-item">
+                            <a href="#" class="categories__sub--childs--link">
+                              Television</a
+                            >
+                          </li>
+                          <li class="categories__sub--childs-item">
+                            <a href="#" class="categories__sub--childs--link">
+                              Refrigerator</a
+                            >
+                          </li>
+                          <li class="categories__sub--childs-item">
+                            <a href="#" class="categories__sub--childs--link">
+                              Air conditioners</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="categories__item">
+                        <a href="#" class="categories__link">
+                          Fashion & Beauty</a
+                        >
+                      </li>
+                      <li class="categories__item">
+                        <a href="#" class="categories__link">
+                          Camera & Photo
+                          <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                        <ul class="categories__sub--childs">
+                          <li class="categories__sub--childs-item">
+                            <a href="#" class="categories__sub--childs--link">
+                              Apple</a
+                            >
+                          </li>
+                          <li class="categories__sub--childs-item">
+                            <a href="#" class="categories__sub--childs--link">
+                              Samsung</a
+                            >
+                          </li>
+                          <li class="categories__sub--childs-item">
+                            <a href="#" class="categories__sub--childs--link">
+                              LG</a
+                            >
+                          </li>
+                          <li class="categories__sub--childs-item">
+                            <a href="#" class="categories__sub--childs--link">
+                              Sony</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="categories__item">
+                        <a href="#" class="categories__link">
+                          Smart Phone & Tablet
+                          <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                        <ul class="categories__sub--childs">
+                          <li class="categories__sub--childs-item">
+                            <a href="#" class="categories__sub--childs--link">
+                              Apple</a
+                            >
+                          </li>
+                          <li class="categories__sub--childs-item">
+                            <a href="#" class="categories__sub--childs--link">
+                              Samsung</a
+                            >
+                          </li>
+                          <li class="categories__sub--childs-item">
+                            <a href="#" class="categories__sub--childs--link">
+                              LG</a
+                            >
+                          </li>
+                          <li class="categories__sub--childs-item">
+                            <a href="#" class="categories__sub--childs--link">
+                              Sony</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="categories__item">
+                        <a href="#" class="categories__link">
+                          Sport & Outdoor</a
+                        >
+                      </li>
+                      <li class="categories__item">
+                        <a href="#" class="categories__link">
+                          Automotive & Morocycle</a
+                        >
+                      </li>
+                      <li class="categories__item">
+                        <a href="#" class="categories__link">
+                          Washing machine</a
+                        >
+                      </li>
+                      <li class="categories__item">
+                        <a href="#" class="categories__link"> Toshiba</a>
+                      </li>
+                      <li class="categories__item">
+                        <a href="#" class="categories__link"> Samsung</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <nav class="header__nav">
+                    <ul class="nav__list">
+                      <li class="nav__item">
+                        <a href="/index.html" class="nav__item--link"> Home </a>
+                      </li>
+                      <li class="nav__item">
+                        <a href="/shop.html" class="nav__item--link acitve">
+                          Shop</a
+                        >
+                      </li>
+                      <li class="nav__item">
+                        <a href="/blogs.html" class="nav__item--link"> Blog</a>
+                      </li>
+                      <li class="nav__item">
+                        <a href="/about.html" class="nav__item--link">About </a>
+                      </li>
+                      <li class="nav__item">
+                        <a href="/contact.html" class="nav__item--link">
+                          Contact</a
+                        >
+                      </li>
+                    </ul>
+                  </nav>
+                  <div class="header__support">
+                    <p>Call Support: (+800) 123 456 XXX</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header__fixed">
+          <div class="grid wide">
+            <div class="row">
+              <div class="col l-12 m-12 c-12">
+                <div class="header__fixed--wrapper">
+                  <a href="#" class="header__logo fixed">
+                    <img src="./assets/imgs/logo.png" alt="" />
+                  </a>
+                  <nav class="header__nav fixed">
+                    <ul class="nav__list">
+                      <li class="nav__item">
+                        <a href="index.html" class="nav__item--link"> Home </a>
+                      </li>
+                      <li class="nav__item">
+                        <a href="shop.html" class="nav__item--link acitve">
+                          Shop</a
+                        >
+                      </li>
+                      <li class="nav__item">
+                        <a href="/blogs.html" class="nav__item--link"> Blog</a>
+                      </li>
+                      <li class="nav__item">
+                        <a href="/about.html" class="nav__item--link">About </a>
+                      </li>
+                      <li class="nav__item">
+                        <a href="/contact.html" class="nav__item--link">
+                          Contact</a
+                        >
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nav__primary">
+        <h1 class="nav__primary--title">Shop</h1>
+        <div class="nav__primary--link">
+          <a href="/index.html" class="nav__primary--link-more back">Home</a>
+          <span> / </span>
+          <a href="/shop.html" class="nav__primary--link-more present">Shop</a>
+        </div>
+      </div>
+      <div class="grid wide">
+        <div class="row">
+          <div class="col l-12 m-12 c-12">
+            <div class="shop__container">
+              <div class="col l-3 m-12 c-12">
+                <div class="sider">
+                  <div class="sider--block">
+                    <h2 class="sider--title">PRODUCT CATEGORIES</h2>
+                    <ul class="sider--list">
+                      <li class="sider--item">
+                        <a href="#" class="sider--link">Outdoor Plant Pots</a>
+                        <span class="sider--qtl">(9)</span>
+                      </li>
+                      <li class="sider--item">
+                        <a href="#" class="sider--link">Plant Families</a>
+                        <span class="sider--qtl">(15)</span>
+                      </li>
+                      <li class="sider--item">
+                        <a href="#" class="sider--link"
+                          >Plant Stands & Movers</a
+                        >
+                        <span class="sider--qtl">(8)</span>
+                      </li>
+                      <li class="sider--item">
+                        <a href="#" class="sider--link">Uncategorized</a>
+                        <span class="sider--qtl">(0)</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="sider--block">
+                    <h2 class="sider--title">BRAND</h2>
+                    <ul class="sider--list">
+                      <li class="sider--item">
+                        <a href="#" class="sider--link">Calvin Klein</a>
+                        <span class="sider--qtl">(1)</span>
+                      </li>
+                      <li class="sider--item">
+                        <a href="#" class="sider--link">Diesel</a>
+                        <span class="sider--qtl">(1)</span>
+                      </li>
+                      <li class="sider--item">
+                        <a href="#" class="sider--link">Polo</a>
+                        <span class="sider--qtl">(1)</span>
+                      </li>
+                      <li class="sider--item">
+                        <a href="#" class="sider--link">Tommy Hilfiger</a>
+                        <span class="sider--qtl">(1)</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="sider--block">
+                    <h2 class="sider--title">COLOR</h2>
+                    <ul class="sider--list">
+                      <li class="sider--item">
+                        <a href="#" class="sider--link">Black</a>
+                        <span class="sider--qtl">(2)</span>
+                      </li>
+                      <li class="sider--item">
+                        <a href="#" class="sider--link">Grey</a>
+                        <span class="sider--qtl">(2)</span>
+                      </li>
+                      <li class="sider--item">
+                        <a href="#" class="sider--link">Orange</a>
+                        <span class="sider--qtl">(2)</span>
+                      </li>
+                      <li class="sider--item">
+                        <a href="#" class="sider--link">White</a>
+                        <span class="sider--qtl">(2)</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="sider--block">
+                    <h2 class="sider--title">TAGS</h2>
+                    <ul class="sider--list tag">
+                      <li class="sider--item tag">
+                        <a href="#" class="sider--link tag">Asian</a>
+                      </li>
+                      <li class="sider--item tag">
+                        <a href="#" class="sider--link tag">Brown</a>
+                      </li>
+                      <li class="sider--item tag">
+                        <a href="#" class="sider--link tag">Euro</a>
+                      </li>
+                      <li class="sider--item tag">
+                        <a href="#" class="sider--link tag">Fashion</a>
+                      </li>
+
+                      <li class="sider--item tag">
+                        <a href="#" class="sider--link tag">Hat</a>
+                      </li>
+                      <li class="sider--item tag">
+                        <a href="#" class="sider--link tag">T-Shirf</a>
+                      </li>
+                      <li class="sider--item tag">
+                        <a href="#" class="sider--link tag">Teen</a>
+                      </li>
+                      <li class="sider--item tag">
+                        <a href="#" class="sider--link tag">Travel</a>
+                      </li>
+                      <li class="sider--item tag">
+                        <a href="#" class="sider--link tag">White</a>
+                      </li>
+                      <li class="sider--item tag">
+                        <a href="#" class="sider--link tag">Wordpress</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col l-9 m-12 c-12">
+                <div class="shop__product">
+                  <div class="shop__product--header">
+                    <div class="shop__product--view">
+                      <button class="shop__product--view-icon square">
+                        <img src="./assets/imgs/icon-grid-hover.png" alt="" />
+                      </button>
+                      <button class="shop__product--view-icon list off">
+                        <img src="./assets/imgs/icon-list.png" alt="" />
+                      </button>
+                    </div>
+                    <div class="shop__product--orderby">
+                      <div class="shop__product--ordering">
+                        <span class="shop__product--ordering-sort"
+                          >Sort By:</span
+                        >
+                        <select class="shop__product--select">
+                          <option class="shop__product--select--item">
+                            Default sorting
+                          </option>
+                          <option class="shop__product--select--item">
+                            Sort by popularity
+                          </option>
+                          <option class="shop__product--select--item">
+                            Sort by average rating
+                          </option>
+                          <option class="shop__product--select--item">
+                            Sort by latest
+                          </option>
+                          <option class="shop__product--select--item">
+                            Sort by price: low to high
+                          </option>
+                          <option class="shop__product--select--item">
+                            Sort by price: high to low
+                          </option>
+                        </select>
+                      </div>
+                      <p class="shop__product--orderby-result">
+                        Showing 1–12 of 16 results
+                      </p>
+                    </div>
+                  </div>
+                  <div class="shop__product--body">
+                    <div class="shop__product-square active">
+                      <div
+                        class="col l-4 products__item m-4 c-6"
+                        data-filter="familyes"
+                      >
+                        <a href="#" class="products__card">
+                          <div class="products__img">
+                            <img src="./assets/imgs/2-600x600.jpg" alt="" />
+                            <div class="products__controls">
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to cart
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-code-compare"></i>
+                                <div class="products__controls--item--mask">
+                                  Compare
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-heart"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to Wishlist
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-eye"></i>
+                                <div class="products__controls--item--mask">
+                                  Quick View
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="products__info">
+                            <div class="products__start">
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="products__name">Hendrerit Est</div>
+                            <div class="products__pice">74.00 $</div>
+                          </div>
+                        </a>
+                      </div>
+                      <div
+                        class="col l-4 products__item m-4 c-6"
+                        data-filter="familyes"
+                      >
+                        <a href="#" class="products__card">
+                          <div class="products__img">
+                            <img src="./assets/imgs/3-600x600.jpg" alt="" />
+                            <div class="products__controls">
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to cart
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-code-compare"></i>
+                                <div class="products__controls--item--mask">
+                                  Compare
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-heart"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to Wishlist
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-eye"></i>
+                                <div class="products__controls--item--mask">
+                                  Quick View
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="products__info">
+                            <div class="products__start">
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="products__name">Commodo Augue Nisi</div>
+                            <div class="products__pice">74.00 $</div>
+                          </div>
+                        </a>
+                      </div>
+                      <div
+                        class="col l-4 products__item m-4 c-6"
+                        data-filter="movers"
+                      >
+                        <a href="#" class="products__card">
+                          <div class="products__img">
+                            <img src="./assets/imgs/4-600x600.jpg" alt="" />
+                            <div class="products__controls">
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to cart
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-code-compare"></i>
+                                <div class="products__controls--item--mask">
+                                  Compare
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-heart"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to Wishlist
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-eye"></i>
+                                <div class="products__controls--item--mask">
+                                  Quick View
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="products__info">
+                            <div class="products__start">
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="products__name">Eget Sagittis</div>
+                            <div class="products__pice">50.00 $</div>
+                          </div>
+                        </a>
+                      </div>
+                      <div
+                        class="col l-4 products__item m-4 c-6"
+                        data-filter="movers"
+                      >
+                        <a href="#" class="products__card">
+                          <div class="products__img">
+                            <img src="./assets/imgs/5-600x600.jpg" alt="" />
+                            <div class="products__controls">
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to cart
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-code-compare"></i>
+                                <div class="products__controls--item--mask">
+                                  Compare
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-heart"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to Wishlist
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-eye"></i>
+                                <div class="products__controls--item--mask">
+                                  Quick View
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="products__info">
+                            <div class="products__start">
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="products__name">Massa Massa</div>
+                            <div class="products__pice">74.00 $</div>
+                          </div>
+                        </a>
+                      </div>
+                      <div
+                        class="col l-4 products__item m-4 c-6"
+                        data-filter="movers"
+                      >
+                        <a href="#" class="products__card">
+                          <div class="products__img">
+                            <img src="./assets/imgs/6-600x600.jpg" alt="" />
+                            <div class="products__controls">
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to cart
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-code-compare"></i>
+                                <div class="products__controls--item--mask">
+                                  Compare
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-heart"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to Wishlist
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-eye"></i>
+                                <div class="products__controls--item--mask">
+                                  Quick View
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="products__info">
+                            <div class="products__start">
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="products__name">SapienLibero</div>
+                            <div class="products__pice">74.00 $</div>
+                          </div>
+                        </a>
+                      </div>
+                      <div
+                        class="col l-4 products__item m-4 c-6"
+                        data-filter="movers"
+                      >
+                        <a href="#" class="products__card">
+                          <div class="products__img">
+                            <img src="./assets/imgs/7-600x600.jpg" alt="" />
+                            <div class="products__controls">
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to cart
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-code-compare"></i>
+                                <div class="products__controls--item--mask">
+                                  Compare
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-heart"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to Wishlist
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-eye"></i>
+                                <div class="products__controls--item--mask">
+                                  Quick View
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="products__info">
+                            <div class="products__start">
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="products__name">Adipiscing Cursus</div>
+                            <div class="products__pice">74.00 $</div>
+                          </div>
+                        </a>
+                      </div>
+                      <div
+                        class="col l-4 products__item m-4 c-6"
+                        data-filter="movers"
+                      >
+                        <a href="#" class="products__card">
+                          <div class="products__img">
+                            <img src="./assets/imgs/8-600x600.jpg" alt="" />
+                            <div class="products__controls">
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to cart
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-code-compare"></i>
+                                <div class="products__controls--item--mask">
+                                  Compare
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-heart"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to Wishlist
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-eye"></i>
+                                <div class="products__controls--item--mask">
+                                  Quick View
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="products__info">
+                            <div class="products__start">
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="products__name">Gravida Semper</div>
+                            <div class="products__pice">74.00 $</div>
+                          </div>
+                        </a>
+                      </div>
+                      <div
+                        class="col l-4 products__item m-4 c-6"
+                        data-filter="outdoor"
+                      >
+                        <a href="#" class="products__card">
+                          <div class="products__img">
+                            <img src="./assets/imgs/9-600x600.jpg" alt="" />
+                            <div class="products__controls">
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to cart
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-code-compare"></i>
+                                <div class="products__controls--item--mask">
+                                  Compare
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-heart"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to Wishlist
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-eye"></i>
+                                <div class="products__controls--item--mask">
+                                  Quick View
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="products__info">
+                            <div class="products__start">
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="products__name">Morbi ornare</div>
+                            <div class="products__pice">69.00 $</div>
+                          </div>
+                        </a>
+                      </div>
+                      <div
+                        class="col l-4 products__item m-4 c-6"
+                        data-filter="outdoor"
+                      >
+                        <a href="#" class="products__card">
+                          <div class="products__img">
+                            <img src="./assets/imgs/10-600x600.jpg" alt="" />
+                            <div class="products__controls">
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to cart
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-code-compare"></i>
+                                <div class="products__controls--item--mask">
+                                  Compare
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-heart"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to Wishlist
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-eye"></i>
+                                <div class="products__controls--item--mask">
+                                  Quick View
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="products__info">
+                            <div class="products__start">
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="products__name">Vulputate Rutrum</div>
+                            <div class="products__pice">74.00 $</div>
+                          </div>
+                        </a>
+                      </div>
+                      <div
+                        class="col l-4 products__item m-4 c-6"
+                        data-filter="outdoor"
+                      >
+                        <a href="#" class="products__card">
+                          <div class="products__img">
+                            <img src="./assets/imgs/11-600x600.jpg" alt="" />
+                            <div class="products__controls">
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to cart
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-code-compare"></i>
+                                <div class="products__controls--item--mask">
+                                  Compare
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-heart"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to Wishlist
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-eye"></i>
+                                <div class="products__controls--item--mask">
+                                  Quick View
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="products__info">
+                            <div class="products__start">
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="products__name">Tristique Auctor</div>
+                            <div class="products__pice">74.00 $</div>
+                          </div>
+                        </a>
+                      </div>
+                      <div
+                        class="col l-4 products__item m-4 c-6"
+                        data-filter="familyes"
+                      >
+                        <a href="#" class="products__card">
+                          <div class="products__img">
+                            <img src="./assets/imgs/12-600x600.jpg" alt="" />
+                            <div class="products__controls">
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to cart
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-code-compare"></i>
+                                <div class="products__controls--item--mask">
+                                  Compare
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-heart"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to Wishlist
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-eye"></i>
+                                <div class="products__controls--item--mask">
+                                  Quick View
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="products__info">
+                            <div class="products__start">
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="products__name">Fringilla augue</div>
+                            <div class="products__pice">74.00 $</div>
+                          </div>
+                        </a>
+                      </div>
+                      <div
+                        class="col l-4 products__item m-4 c-6"
+                        data-filter="familyes"
+                      >
+                        <a href="#" class="products__card">
+                          <div class="products__img">
+                            <img src="./assets/imgs/13-600x600.jpg" alt="" />
+                            <div class="products__controls">
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to cart
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-code-compare"></i>
+                                <div class="products__controls--item--mask">
+                                  Compare
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-heart"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to Wishlist
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-eye"></i>
+                                <div class="products__controls--item--mask">
+                                  Quick View
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="products__info">
+                            <div class="products__start">
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="products__name">Adipiscing Elit</div>
+                            <div class="products__pice">69.00 $</div>
+                          </div>
+                        </a>
+                      </div>
+                      <div
+                        class="col l-4 products__item m-4 c-6"
+                        data-filter="familyes"
+                      >
+                        <a href="#" class="products__card">
+                          <div class="products__img">
+                            <img src="./assets/imgs/15-600x600.jpg" alt="" />
+                            <div class="products__controls">
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to cart
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-code-compare"></i>
+                                <div class="products__controls--item--mask">
+                                  Compare
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-heart"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to Wishlist
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-eye"></i>
+                                <div class="products__controls--item--mask">
+                                  Quick View
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="products__info">
+                            <div class="products__start">
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="products__name">Porro Cook</div>
+                            <div class="products__pice">69.00 $</div>
+                          </div>
+                        </a>
+                      </div>
+                      <div
+                        class="col l-4 products__item m-4 c-6"
+                        data-filter="familyes"
+                      >
+                        <a href="#" class="products__card">
+                          <div class="products__img">
+                            <img src="./assets/imgs/16-600x600.jpg" alt="" />
+                            <div class="products__controls">
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to cart
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-code-compare"></i>
+                                <div class="products__controls--item--mask">
+                                  Compare
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-heart"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to Wishlist
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-eye"></i>
+                                <div class="products__controls--item--mask">
+                                  Quick View
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="products__info">
+                            <div class="products__start">
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="products__name">Duis Pulvinar Cook</div>
+                            <div class="products__pice">69.00 $</div>
+                          </div>
+                        </a>
+                      </div>
+                      <div
+                        class="col l-4 products__item m-4 c-6"
+                        data-filter="familyes"
+                      >
+                        <a href="#" class="products__card">
+                          <div class="products__img">
+                            <img src="./assets/imgs/18-600x600.jpg" alt="" />
+                            <div class="products__controls">
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to cart
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-code-compare"></i>
+                                <div class="products__controls--item--mask">
+                                  Compare
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-heart"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to Wishlist
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-eye"></i>
+                                <div class="products__controls--item--mask">
+                                  Quick View
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="products__info">
+                            <div class="products__start">
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="products__name">Donec eu cook</div>
+                            <div class="products__pice">69.00 $</div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="shop__product-list">
+                      <div class="shop__product-item">
+                        <div class="shop__product-item-left">
+                          <div class="products__img">
+                            <img src="./assets/imgs/2-600x600.jpg" alt="" />
+                            <div class="products__controls">
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to cart
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-code-compare"></i>
+                                <div class="products__controls--item--mask">
+                                  Compare
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-heart"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to Wishlist
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-eye"></i>
+                                <div class="products__controls--item--mask">
+                                  Quick View
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="shop__product-item-right">
+                          <div class="products__start shop">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                          </div>
+                          <div class="products__name shop">
+                            Placerat Vestibulum
+                          </div>
+                          <div class="products__pice">69.00 $</div>
+                          <p class="products__desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco…
+                          </p>
+                          <div class="shop__product--controls">
+                            <button class="btn btn-primary">Add To Cart</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="shop__product-item">
+                        <div class="shop__product-item-left">
+                          <div class="products__img">
+                            <img src="./assets/imgs/2-600x600.jpg" alt="" />
+                            <div class="products__controls">
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to cart
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-code-compare"></i>
+                                <div class="products__controls--item--mask">
+                                  Compare
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-heart"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to Wishlist
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-eye"></i>
+                                <div class="products__controls--item--mask">
+                                  Quick View
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="shop__product-item-right">
+                          <div class="products__start shop">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                          </div>
+                          <div class="products__name shop">
+                            Placerat Vestibulum
+                          </div>
+                          <div class="products__pice">69.00 $</div>
+                          <p class="products__desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco…
+                          </p>
+                          <div class="shop__product--controls">
+                            <button class="btn btn-primary">Add To Cart</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="shop__product-item">
+                        <div class="shop__product-item-left">
+                          <div class="products__img">
+                            <img src="./assets/imgs/2-600x600.jpg" alt="" />
+                            <div class="products__controls">
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to cart
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-code-compare"></i>
+                                <div class="products__controls--item--mask">
+                                  Compare
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-heart"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to Wishlist
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-eye"></i>
+                                <div class="products__controls--item--mask">
+                                  Quick View
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="shop__product-item-right">
+                          <div class="products__start shop">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                          </div>
+                          <div class="products__name shop">
+                            Placerat Vestibulum
+                          </div>
+                          <div class="products__pice">69.00 $</div>
+                          <p class="products__desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco…
+                          </p>
+                          <div class="shop__product--controls">
+                            <button class="btn btn-primary">Add To Cart</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="shop__product-item">
+                        <div class="shop__product-item-left">
+                          <div class="products__img">
+                            <img src="./assets/imgs/2-600x600.jpg" alt="" />
+                            <div class="products__controls">
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to cart
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-code-compare"></i>
+                                <div class="products__controls--item--mask">
+                                  Compare
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-heart"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to Wishlist
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-eye"></i>
+                                <div class="products__controls--item--mask">
+                                  Quick View
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="shop__product-item-right">
+                          <div class="products__start shop">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                          </div>
+                          <div class="products__name shop">
+                            Placerat Vestibulum
+                          </div>
+                          <div class="products__pice">69.00 $</div>
+                          <p class="products__desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco…
+                          </p>
+                          <div class="shop__product--controls">
+                            <button class="btn btn-primary">Add To Cart</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="shop__product-item">
+                        <div class="shop__product-item-left">
+                          <div class="products__img">
+                            <img src="./assets/imgs/2-600x600.jpg" alt="" />
+                            <div class="products__controls">
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to cart
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-code-compare"></i>
+                                <div class="products__controls--item--mask">
+                                  Compare
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-heart"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to Wishlist
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-eye"></i>
+                                <div class="products__controls--item--mask">
+                                  Quick View
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="shop__product-item-right">
+                          <div class="products__start shop">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                          </div>
+                          <div class="products__name shop">
+                            Placerat Vestibulum
+                          </div>
+                          <div class="products__pice">69.00 $</div>
+                          <p class="products__desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco…
+                          </p>
+                          <div class="shop__product--controls">
+                            <button class="btn btn-primary">Add To Cart</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="shop__product-item">
+                        <div class="shop__product-item-left">
+                          <div class="products__img">
+                            <img src="./assets/imgs/2-600x600.jpg" alt="" />
+                            <div class="products__controls">
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to cart
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-solid fa-code-compare"></i>
+                                <div class="products__controls--item--mask">
+                                  Compare
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-heart"></i>
+                                <div class="products__controls--item--mask">
+                                  Add to Wishlist
+                                </div>
+                              </div>
+                              <div class="products__controls--item">
+                                <i class="fa-regular fa-eye"></i>
+                                <div class="products__controls--item--mask">
+                                  Quick View
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="shop__product-item-right">
+                          <div class="products__start shop">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                          </div>
+                          <div class="products__name shop">
+                            Placerat Vestibulum
+                          </div>
+                          <div class="products__pice">69.00 $</div>
+                          <p class="products__desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco…
+                          </p>
+                          <div class="shop__product--controls">
+                            <button class="btn btn-primary">Add To Cart</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="nav-page">
+                      <span class="nav-page-number active">1</span>
+                      <span class="nav-page-number">2</span>
+                      <span class="nav-page-number">>></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="grid wide">
+          <div class="row">
+            <div class="col l-12 c-12 m-12">
+              <div class="f-row">
+                <div class="f-l-2 f-l-s-6 f-c-12 f-flex-center">
+                  <h3 class="text-title-s">OPENING TIME</h3>
+                  <ul class="footer_contents">
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link">
+                        Mon - Fri: <span class="text-time">8AM - 10PM</span>
+                      </a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link">
+                        Sat: <span class="text-time">9AM-8PM</span>
+                      </a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link">
+                        Suns: <span class="text-time"> 14hPM-18hPM</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="f-l-2 f-l-s-6 f-c-12 f-flex-center">
+                  <h3 class="text-title-s">INFORMATION</h3>
+                  <ul class="footer_contents">
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link"> About Us </a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link"> Checkout</a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link"> Contact </a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link">
+                        Frequently Questions
+                      </a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link"> Wishlist </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="f-l-4 f-l-s-6 f-c-12 f-flex-center">
+                  <div class="footer__logo">
+                    <img src="./assets/imgs/logo.png" alt="" />
+                  </div>
+                  <div class="footer__nav">
+                    <a href="#" class="footer_contents--link">Payment</a>
+                    <a href="#" class="footer_contents--link">Affiliates</a>
+                    <a href="#" class="footer_contents--link">Contact</a>
+                    <a href="#" class="footer_contents--link">Internet</a>
+                  </div>
+                  <div class="footer__social">
+                    <a href="#" class="footer__social--item">
+                      <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="footer__social--item">
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#" class="footer__social--item">
+                      <i class="fa-brands fa-google"></i>
+                    </a>
+                    <a href="#" class="footer__social--item">
+                      <i class="fa-brands fa-youtube"></i>
+                    </a>
+                  </div>
+                  <div class="footer__download">
+                    <a href="#" class="footer__download--item">
+                      <img
+                        src="./assets/imgs/appledown.png"
+                        alt=""
+                        class="footer__download--item--img"
+                      />
+                    </a>
+                    <a href="#" class="footer__download--item">
+                      <img
+                        src="./assets/imgs/ggdown.png"
+                        alt=""
+                        class="footer__download--item--img"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="f-l-2 f-l-s-6 f-c-12 f-flex-center">
+                  <h3 class="text-title-s">MY ACCOUNT</h3>
+                  <ul class="footer_contents">
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link"> My Account</a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link"> Contact</a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link">
+                        Shopping cart
+                      </a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link"> Checkout </a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link"> Shop </a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link">
+                        Order History
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="f-l-2 f-l-s-6 f-c-12 f-flex-center">
+                  <h3 class="text-title-s">CUSTOMER SERVICE</h3>
+                  <ul class="footer_contents">
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link"> Contact Us</a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link">
+                        Terms of use</a
+                      >
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link">
+                        Privacy Policy</a
+                      >
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link"> Site Map </a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link"> My Account </a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link">Returns </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__decs">
+        <div class="grid wide">
+          <div class="col l-12 c-12 m-12">
+            <p class="footer__decs-content">
+              Copyright © 2019 PlazaThemes. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-1.11.0.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script> -->
+  <script src="./js/main.js"></script>
+  <script>
+    // thay doi trang thai view products trong shop
+    const btnSquare = document.querySelector(
+      ".shop__product--view-icon.square"
+    );
+    const btnlist = document.querySelector(".shop__product--view-icon.list");
+    const viewSquare = document.querySelector(".shop__product-square");
+    const viewList = document.querySelector(".shop__product-list");
+    btnSquare.addEventListener("click", () => {
+      btnlist.classList.add("off");
+      btnSquare.classList.remove("off");
+
+      viewSquare.classList.add("active");
+      viewList.classList.remove("active");
+    });
+    btnlist.addEventListener("click", () => {
+      btnlist.classList.remove("off");
+      btnSquare.classList.add("off");
+
+      viewSquare.classList.remove("active");
+      viewList.classList.add("active");
+    });
+  </script>
+</html>

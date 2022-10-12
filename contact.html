@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <!-- <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    /> -->
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/keyfarme.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <title>Lukani</title>
+  </head>
+  <body>
+    <div id="main">
+      <div class="header">
+        <div class="header__top">
+          <div class="grid wide">
+            <div class="row">
+              <div class="col l-12 m-12 c-12">
+                <div class="header__top--wrapper">
+                  <div class="nav__mobile">
+                    <i class="fa-solid fa-list nav__mobile--icon"></i>
+                    <div class="menu__mobile">
+                      <a href="/index.html" class="menu__mobile--log">
+                        <img src="/assets/imgs/logo.png" alt="" />
+                      </a>
+                      <ul class="menu__mobile-nav">
+                        <li class="mobile__nav-item">
+                          <a href="/" class="mobile__nav-link">Home</a>
+                        </li>
+                        <li class="mobile__nav-item">
+                          <a href="/" class="mobile__nav-link">shop</a>
+                        </li>
+                        <li class="mobile__nav-item">
+                          <a href="/" class="mobile__nav-link">blog</a>
+                        </li>
+                        <li class="mobile__nav-item">
+                          <a href="/" class="mobile__nav-link">about</a>
+                        </li>
+                        <li class="mobile__nav-item">
+                          <a href="/" class="mobile__nav-link">contact</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <i class="fa-solid fa-xmark nav__mobile--close"></i>
+                    <div class="nav__overlay"></div>
+                  </div>
+                  <a href="#" class="header__logo">
+                    <img src="./assets/imgs/logo.png" alt="" />
+                  </a>
+                  <form action="" class="header__search">
+                    <input
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Search Products..."
+                    />
+                    <button>
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                  </form>
+                  <div class="header__controls">
+                    <div class="header__controls--item">
+                      <a href="#" class="header__controls--link user">
+                        <i class="fa-regular fa-user"></i>
+                      </a>
+                      <ul class="controls__sub">
+                        <li class="controls__sub--item">
+                          <a href="#" class="controls__sub--link">Checkout</a>
+                        </li>
+                        <li class="controls__sub--item">
+                          <a href="#" class="controls__sub--link">My Account</a>
+                        </li>
+                        <li class="controls__sub--item">
+                          <a href="#" class="controls__sub--link"
+                            >Shopping Cart</a
+                          >
+                        </li>
+                        <li class="controls__sub--item">
+                          <a href="#" class="controls__sub--link">Wishlist</a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="header__controls--item">
+                      <a href="#" class="header__controls--link cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="cart__ptl">0</span>
+                      </a>
+                      <div class="controls__sub">
+                        <div class="cart__null">
+                          <p>No products in the cart.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="header__controls--item">
+                      <a href="#" class="header__controls--link heart">
+                        <i class="fa-solid fa-gear"></i>
+                      </a>
+                      <ul class="controls__sub">
+                        <li class="controls__sub--item">
+                          <a href="#" class="controls__sub--link">Checkout</a>
+                        </li>
+                        <li class="controls__sub--item">
+                          <a href="#" class="controls__sub--link">My Account</a>
+                        </li>
+                        <li class="controls__sub--item">
+                          <a href="#" class="controls__sub--link"
+                            >Shopping Cart</a
+                          >
+                        </li>
+                        <li class="controls__sub--item">
+                          <a href="#" class="controls__sub--link">Wishlist</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col l-0 m-12 c-12">
+                <div class="header__search--mobile-wrapper">
+                  <form action="" class="header__search--mobile">
+                    <input
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Search Products..."
+                    />
+                    <button>
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header__buttom">
+          <div class="grid wide">
+            <div class="row">
+              <div class="col l-12 m-0 c-0">
+                <div class="header__buttom--wrapper">
+                  <div class="header__categories">
+                    <div class="header__categories--toggle">
+                      <i class="fa-solid fa-bars-staggered"></i>
+                      <span>Categories</span>
+                    </div>
+                    <ul class="categories__sub">
+                      <li class="categories__item">
+                        <a href="#" class="categories__link">
+                          Electronic
+                          <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                        <ul class="categories__sub--childs">
+                          <li class="categories__sub--childs-item">
+                            <a href="#" class="categories__sub--childs--link">
+                              Television</a
+                            >
+                          </li>
+                          <li class="categories__sub--childs-item">
+                            <a href="#" class="categories__sub--childs--link">
+                              Refrigerator</a
+                            >
+                          </li>
+                          <li class="categories__sub--childs-item">
+                            <a href="#" class="categories__sub--childs--link">
+                              Air conditioners</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="categories__item">
+                        <a href="#" class="categories__link">
+                          Fashion & Beauty</a
+                        >
+                      </li>
+                      <li class="categories__item">
+                        <a href="#" class="categories__link">
+                          Camera & Photo
+                          <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                        <ul class="categories__sub--childs">
+                          <li class="categories__sub--childs-item">
+                            <a href="#" class="categories__sub--childs--link">
+                              Apple</a
+                            >
+                          </li>
+                          <li class="categories__sub--childs-item">
+                            <a href="#" class="categories__sub--childs--link">
+                              Samsung</a
+                            >
+                          </li>
+                          <li class="categories__sub--childs-item">
+                            <a href="#" class="categories__sub--childs--link">
+                              LG</a
+                            >
+                          </li>
+                          <li class="categories__sub--childs-item">
+                            <a href="#" class="categories__sub--childs--link">
+                              Sony</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="categories__item">
+                        <a href="#" class="categories__link">
+                          Smart Phone & Tablet
+                          <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                        <ul class="categories__sub--childs">
+                          <li class="categories__sub--childs-item">
+                            <a href="#" class="categories__sub--childs--link">
+                              Apple</a
+                            >
+                          </li>
+                          <li class="categories__sub--childs-item">
+                            <a href="#" class="categories__sub--childs--link">
+                              Samsung</a
+                            >
+                          </li>
+                          <li class="categories__sub--childs-item">
+                            <a href="#" class="categories__sub--childs--link">
+                              LG</a
+                            >
+                          </li>
+                          <li class="categories__sub--childs-item">
+                            <a href="#" class="categories__sub--childs--link">
+                              Sony</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="categories__item">
+                        <a href="#" class="categories__link">
+                          Sport & Outdoor</a
+                        >
+                      </li>
+                      <li class="categories__item">
+                        <a href="#" class="categories__link">
+                          Automotive & Morocycle</a
+                        >
+                      </li>
+                      <li class="categories__item">
+                        <a href="#" class="categories__link">
+                          Washing machine</a
+                        >
+                      </li>
+                      <li class="categories__item">
+                        <a href="#" class="categories__link"> Toshiba</a>
+                      </li>
+                      <li class="categories__item">
+                        <a href="#" class="categories__link"> Samsung</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <nav class="header__nav">
+                    <ul class="nav__list">
+                      <li class="nav__item">
+                        <a href="/index.html" class="nav__item--link"> Home </a>
+                      </li>
+                      <li class="nav__item">
+                        <a href="/shop.html" class="nav__item--link"> Shop</a>
+                      </li>
+                      <li class="nav__item">
+                        <a href="/blogs.html" class="nav__item--link"> Blog</a>
+                      </li>
+                      <li class="nav__item">
+                        <a href="/about.html" class="nav__item--link">About </a>
+                      </li>
+                      <li class="nav__item">
+                        <a href="/contact.html" class="nav__item--link acitve">
+                          Contact</a
+                        >
+                      </li>
+                    </ul>
+                  </nav>
+                  <div class="header__support">
+                    <p>Call Support: (+800) 123 456 XXX</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header__fixed">
+          <div class="grid wide">
+            <div class="row">
+              <div class="col l-12 m-12 c-12">
+                <div class="header__fixed--wrapper">
+                  <a href="#" class="header__logo fixed">
+                    <img src="./assets/imgs/logo.png" alt="" />
+                  </a>
+                  <nav class="header__nav fixed">
+                    <ul class="nav__list">
+                      <li class="nav__item">
+                        <a href="index.html" class="nav__item--link"> Home </a>
+                      </li>
+                      <li class="nav__item">
+                        <a href="shop.html" class="nav__item--link"> Shop</a>
+                      </li>
+                      <li class="nav__item">
+                        <a href="/blogs.html" class="nav__item--link"> Blog</a>
+                      </li>
+                      <li class="nav__item">
+                        <a href="/about.html" class="nav__item--link">About </a>
+                      </li>
+                      <li class="nav__item">
+                        <a href="/contact.html" class="nav__item--link acitve">
+                          Contact</a
+                        >
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nav__primary">
+        <h1 class="nav__primary--title">Contact</h1>
+        <div class="nav__primary--link">
+          <a href="/index.html" class="nav__primary--link-more back">Home</a>
+          <span> / </span>
+          <a href="/contact.html" class="nav__primary--link-more present"
+            >Contact
+          </a>
+        </div>
+      </div>
+      <div class="contact">
+        <div class="grid wide">
+          <div class="row">
+            <div class="col l-12 m-12 c-12">
+              <div class="contact__container">
+                <div class="contact__left">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.0076672134683!2d-118.25878268520246!3d34.04367442562991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDAyJzM3LjIiTiAxMTjCsDE1JzIzLjciVw!5e0!3m2!1svi!2s!4v1532584794370"
+                    width="600"
+                    height="920"
+                    frameborder="0"
+                    style="border: 0px; pointer-events: none"
+                    allowfullscreen=""
+                  ></iframe>
+                </div>
+                <div class="contact__right">
+                  <div class="contact__us">
+                    <div class="contact__header">
+                      <h2 class="contact__title">Contact Us</h2>
+                      <div class="contact__bd"></div>
+                    </div>
+                    <div class="contact__us-list">
+                      <div class="contact__us-item">
+                        <h4>Address</h4>
+                        <p>
+                          Location : 123 Main Street, Anytown, CA 12345 – USA.
+                        </p>
+                      </div>
+                      <div class="contact__us-item">
+                        <h4>Address Email</h4>
+                        <p>Contact01@plazathemes.com</p>
+                        <p>Contact02@plazathemes.com</p>
+                      </div>
+                      <div class="contact__us-item">
+                        <h4>Telephone Enquiry</h4>
+                        <p>Hotline 01: (012) 800 456 789-987</p>
+                        <p>Hotline 02: (012) 800 456 789-987</p>
+                      </div>
+                      <div class="contact__us-item">
+                        <h4>Opening Time</h4>
+                        <p>
+                          Open: <span class="text--primary"> 8:00</span> AM –
+                          Close: <span class="text--primary">18:00</span> PM
+                        </p>
+                        <p>Saturday – Sunday: Close</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="contact__tell">
+                    <div class="contact__header">
+                      <h2 class="contact__title">Tell us your project</h2>
+                      <div class="contact__bd"></div>
+                    </div>
+                    <form class="contact__from">
+                      <div class="contact__from-input">
+                        <input
+                          type="text"
+                          class="contact__input"
+                          placeholder="First Name *"
+                        />
+                        <input
+                          type="text"
+                          class="contact__input"
+                          placeholder="Last Name *"
+                        />
+                        <input
+                          type="email"
+                          class="contact__input"
+                          placeholder="Email *"
+                        />
+                        <input
+                          type="text"
+                          class="contact__input"
+                          placeholder="Website"
+                        />
+                        <input
+                          type="text"
+                          class="contact__input"
+                          placeholder="Subject *"
+                        />
+                      </div>
+                      <div class="contact__from-textarea">
+                        <textarea
+                          name=""
+                          id=""
+                          cols="30"
+                          rows="10"
+                          class="contact__textarea"
+                          placeholder="Message *"
+                        ></textarea>
+                      </div>
+                    </form>
+                    <div class="contact__btn">
+                      <button class="btn btn-primary">Send Email</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="grid wide">
+          <div class="row">
+            <div class="col l-12 m-12 c-12">
+              <div class="f-row">
+                <div class="f-l-2 f-l-s-6 f-c-12 f-flex-center">
+                  <h3 class="text-title-s">OPENING TIME</h3>
+                  <ul class="footer_contents">
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link">
+                        Mon - Fri: <span class="text-time">8AM - 10PM</span>
+                      </a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link">
+                        Sat: <span class="text-time">9AM-8PM</span>
+                      </a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link">
+                        Suns: <span class="text-time"> 14hPM-18hPM</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="f-l-2 f-l-s-6 f-c-12 f-flex-center">
+                  <h3 class="text-title-s">INFORMATION</h3>
+                  <ul class="footer_contents">
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link"> About Us </a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link"> Checkout</a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link"> Contact </a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link">
+                        Frequently Questions
+                      </a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link"> Wishlist </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="f-l-4 f-l-s-6 f-c-12 f-flex-center">
+                  <div class="footer__logo">
+                    <img src="./assets/imgs/logo.png" alt="" />
+                  </div>
+                  <div class="footer__nav">
+                    <a href="#" class="footer_contents--link">Payment</a>
+                    <a href="#" class="footer_contents--link">Affiliates</a>
+                    <a href="#" class="footer_contents--link">Contact</a>
+                    <a href="#" class="footer_contents--link">Internet</a>
+                  </div>
+                  <div class="footer__social">
+                    <a href="#" class="footer__social--item">
+                      <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="footer__social--item">
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#" class="footer__social--item">
+                      <i class="fa-brands fa-google"></i>
+                    </a>
+                    <a href="#" class="footer__social--item">
+                      <i class="fa-brands fa-youtube"></i>
+                    </a>
+                  </div>
+                  <div class="footer__download">
+                    <a href="#" class="footer__download--item">
+                      <img
+                        src="./assets/imgs/appledown.png"
+                        alt=""
+                        class="footer__download--item--img"
+                      />
+                    </a>
+                    <a href="#" class="footer__download--item">
+                      <img
+                        src="./assets/imgs/ggdown.png"
+                        alt=""
+                        class="footer__download--item--img"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="f-l-2 f-l-s-6 f-c-12 f-flex-center">
+                  <h3 class="text-title-s">MY ACCOUNT</h3>
+                  <ul class="footer_contents">
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link"> My Account</a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link"> Contact</a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link">
+                        Shopping cart
+                      </a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link"> Checkout </a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link"> Shop </a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link">
+                        Order History
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="f-l-2 f-l-s-6 f-c-12 f-flex-center">
+                  <h3 class="text-title-s">CUSTOMER SERVICE</h3>
+                  <ul class="footer_contents">
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link"> Contact Us</a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link">
+                        Terms of use</a
+                      >
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link">
+                        Privacy Policy</a
+                      >
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link"> Site Map </a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link"> My Account </a>
+                    </li>
+                    <li class="footer_contents--item">
+                      <a href="#" class="footer_contents--link">Returns </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__decs">
+        <div class="grid wide">
+          <div class="col l-12 c-12 m-12">
+            <p class="footer__decs-content">
+              Copyright © 2019 PlazaThemes. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-1.11.0.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script> -->
+  <script src="./js/main.js"></script>
+</html>

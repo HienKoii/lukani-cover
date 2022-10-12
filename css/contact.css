@@ -1,0 +1,74 @@
+.contact__container {
+  font-family: "Lora", serif !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact__left {
+  padding: 4px 12px;
+}
+.contact__right {
+  flex: 1;
+  padding: 0 12px;
+}
+.contact__us {
+  margin-bottom: 32px;
+}
+.contact__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact__title {
+  font-size: 2.8rem;
+  font-weight: 400;
+  background: #fff;
+  color: #222;
+}
+.contact__bd {
+  flex: 1;
+  height: 1px;
+  background: #ebebeb;
+  margin-left: 16px;
+}
+.contact__us-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact__us-item {
+  width: calc(100% / 2);
+  margin-bottom: 12px;
+  padding-right: 8px;
+}
+.contact__us-item h4 {
+  font-size: 2.1rem;
+  font-weight: 400;
+  margin: 6px 0;
+}
+.contact__us-item p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #999;
+}
+.contact__from {
+  margin-top: 24px;
+}
+.contact__from-input {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact__input,
+.contact__textarea {
+  width: calc((100% - 22px) / 2);
+  margin-bottom: 12px;
+  background: #fff;
+  border: 1px solid #e1e1e1;
+  border-radius: 0;
+  height: 46px;
+  padding-left: 15px;
+}
+.contact__textarea {
+  width: 100%;
+  padding: 15px;
+  height: auto;
+}
